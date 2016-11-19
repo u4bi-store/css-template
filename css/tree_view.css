@@ -21,6 +21,9 @@ body{}
      그러므로 반반 고루 섞인 inline-block을 적용해야함
   */
 }
+.tree label{
+  cursor:pointer;
+}
 .tree label:before{
   content: '\f256';
   font-family:fontello;
