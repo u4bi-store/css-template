@@ -4,4 +4,14 @@ body{}
   margin:10px;
   width:150px;
   height:150px;
+  background-size:cover;
+  /* 엘리먼트 크기의 비율이 뒤틀리거나 왜곡되지 않는 선안에서의 전체 비율을 설정하고
+     나머지 비율은 짤라냄
+  
+    2) 뒤틀리지 않은 전체 사진의 비율 설정 후 나머지 비율은 회색으로 중앙 설정
+    background-color:gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+  */
 }
