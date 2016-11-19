@@ -4,9 +4,14 @@ body{}
   list-style:none;
   padding-left:20px; /* 간격 0으로했다 너무 이상해서 20픽셀로 패딩값 설정*/
 }
+.tree label:before{
+  content: '\f255';
+  font-family:fontello;
+}
 .tree a:before{
   content:'\e800';
   font-family:fontello;
+  /* before을 통해서 content라는 속성으로 원하는 아이콘의 문자값을 주입해주고 폰트를 지정*/
 }
 .tree input[type="checkbox"]{
   display:none;
