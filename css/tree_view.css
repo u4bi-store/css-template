@@ -1,5 +1,8 @@
 /* body */
 body{}
+.tree, .tree ul{
+  list-style:none;
+}
 .tree input[type="checkbox"]{
   display:none;
   /* 만약 체크박스가 안보이게 해도 됨
