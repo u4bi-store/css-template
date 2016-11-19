@@ -17,5 +17,8 @@ body{}
   */
 }
 .thumbnail.round{
-  border-radius:10px;
+  border-radius:10%;
+}
+.thumbnail.circle{
+  border-radius:100%;
 }
