@@ -1,12 +1,12 @@
 /* body */
 body{}
-input[type="checkbox"]{
+.tree input[type="checkbox"]{
   display:none;
   /* 만약 체크박스가 안보이게 해도 됨
      왜냐 인풋 체크박스를 클릭하면 체크박스가 체크되고 체크박스가 화면에 보이지 않는다고하더래도
      체크박스의 기능은 동작하기 때문임 */
 }
-input[type="checkbox"]:checked~ul{
+.tree input[type="checkbox"]:checked~ul{
   display:none;
 }
 /* 대가로를 치면 속성 선택자*/
