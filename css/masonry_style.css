@@ -13,8 +13,11 @@ body{}
   
   유연한 column-width값이 더 유용함*/
   border:5px solid green;
-  column-gap:0;
+  column-gap:15;
   /*따라서 갭을 0으로 조정*/
+  /*어느정도의 간격을 주고 싶다면 golumn-gap을 조정 15픽셀정도 줘보면 간격이 벌어짐*/
+  
+  /* 하지만 위 아래의 간격이 아직 벌어지지 않음 */
 }
 #columns figure{
   display: inline-block;
@@ -23,6 +26,8 @@ body{}
     마진을 없애기*/
   margin: 0;
   /* 그럼에도 불구하고 여전히 간격이 조금 있는 이유는 column-gap이 존재하다고함*/
+  margin-bottom:15px;
+  /* margin-bottom을 15픽셀 정도 줘보면 위 아래 간격이 벌어짐*/
   
 }
 #columns figure img{
