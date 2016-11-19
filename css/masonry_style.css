@@ -12,7 +12,8 @@ body{}
   즉 300픽셀이라고 하는 컬럼값에 맞게 웹 브라우저가 지정해줌
   
   유연한 column-width값이 더 유용함*/
-  border:5px solid green;
+  /*border:5px solid green;*/
+  
   column-gap:15;
   /*따라서 갭을 0으로 조정*/
   /*어느정도의 간격을 주고 싶다면 golumn-gap을 조정 15픽셀정도 줘보면 간격이 벌어짐*/
