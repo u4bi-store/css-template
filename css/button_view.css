@@ -12,8 +12,10 @@ body{}
   /* 보더의 테두리 반지름*/
   transition:all 0.1s;
   /* 트랜지션 장면전환 효과 모든 속성에 대해서 변경되었을 때 0.1초동안 장면전환 됨 */
-  text-shadow: 10px 10px black;
+  text-shadow: 0px -2.5px rgba(0,0,0,0.44);
   /* 텍스트의 입체감 그림자 text-shadow x,y*/
+  font-family: 'Delius Unicase', cursive;
+  /* 폰트 설정 구글 폰트 */
 }
 .btn:active{
   transform:translateY(3px);
