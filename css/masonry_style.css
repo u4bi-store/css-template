@@ -21,15 +21,21 @@ body{}
 }
 #columns figure{
   display: inline-block;
-  border:5px solid red;
+  border:1px solid rgba(0,0,0,0.2);
   /* 크롬에서 확인한 결과 피규어는 기본으로 위아래로 16픽셀 좌우로는 40픽셀의 마진을 가지고 있음.
     마진을 없애기*/
   margin: 0;
   /* 그럼에도 불구하고 여전히 간격이 조금 있는 이유는 column-gap이 존재하다고함*/
   margin-bottom:15px;
   /* margin-bottom을 15픽셀 정도 줘보면 위 아래 간격이 벌어짐*/
+  padding:10px;
   
 }
 #columns figure img{
   width: 100%;
+}
+#columns figure figcaption{
+  border-top:1px solid rgba(0,0,0,0.2);
+  padding:10px;
+  margin-top:11px;
 }
