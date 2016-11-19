@@ -1,4 +1,7 @@
 /* body */
 body{}
-input[]{}
+input[type="checkbox"]{
+  display:none;
+}
 /* 대가로를 치면 속성 선택자*/
+/* display none이 먹히고 있다는것은 input checkbox를 제대로 가리키고 있다는것*/
