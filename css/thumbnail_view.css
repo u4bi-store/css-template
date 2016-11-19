@@ -16,3 +16,6 @@ body{}
     background-position: center center; 
   */
 }
+.thumbnail.round{
+  border-radius:10px;
+}
