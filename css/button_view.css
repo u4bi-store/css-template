@@ -31,8 +31,13 @@ body{}
 }
 .btn.blue:active{
   border-bottom:2px solid #165195;
-  /* 액티브로 눌렸을때 아래쪽의 태두리가 얇아지면서 눌린것 같은 효과를 줌*/ㄴ
+  /* 액티브로 눌렸을때 아래쪽의 태두리가 얇아지면서 눌린것 같은 효과를 줌*/
 }
 .btn.red{
-  background-color: red;
+  background-color: #ff521e;
+  border-bottom:5px solid #c1370e;
 }
+.btn.red:active{
+  border-bottom:2px solid #c1370e;
+}
+/* red도 blue와 동일히 설정*/
