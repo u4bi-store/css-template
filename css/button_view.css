@@ -1,5 +1,17 @@
 /* body */
 body{}
 .btn{
-  
+  text-decoration:none;
+  font-size:2rem;
+  color:white;
+  padding:10px 20px 10px 20px;
+  /* 패딩 위쪽, 오른쪽 아래쪽 왼쪽 */
+  margin:20px;
+  display:inline-block;
+}
+.btn.blue{
+  background-color: #1f75d9;
+}
+.btn.red{
+  background-color: red;
 }
