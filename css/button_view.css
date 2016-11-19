@@ -14,11 +14,20 @@ body{}
   /* 트랜지션 장면전환 효과 모든 속성에 대해서 변경되었을 때 0.1초동안 장면전환 됨 */
 }
 .btn:active{
-  transform:translateY(10px);
+  transform:translateY(3px);
   /* 눌렀을 때 액티브 되었을 때 Y축으로 10픽셀 움직임*/
+  /* 안눌렸을때 보더 아래 테두리가 5픽셀 눌렸을때 2픽셀 그러므로 3픽셀의 차이
+     따라서 정교하게 해주려면 트랜스폼의 translateY를 3픽셀로 조정하면 자연스러움
+  */
 }
 .btn.blue{
   background-color: #1f75d9;
+  border-bottom:5px solid #165195;
+  /* 입체감을 보여주는 효과 아래에 보더를 깔자 버튼의 백그라운드보다 조금 어두운 색상으로*/
+}
+.btn.blue:active{
+  border-bottom:2px solid #165195;
+  /* 액티브로 눌렸을때 아래쪽의 태두리가 얇아지면서 눌린것 같은 효과를 줌*/ㄴ
 }
 .btn.red{
   background-color: red;
