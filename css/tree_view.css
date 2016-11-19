@@ -4,6 +4,19 @@ body{}
   list-style:none;
   padding-left:20px; /* 간격 0으로했다 너무 이상해서 20픽셀로 패딩값 설정*/
 }
+.tree *:before{
+  width:17px;
+  height:17px;
+  display:inline-block;
+  /* before을 통해 주입하게되면 기본적으로 display 속성은 inline으로 적용됨
+     이를 해결하기 위해서는 inline-block을 사용해야함
+     
+     inline은 width값이 적용이 안됨 따라서 block를 선택해야하는데
+     block는 줄바꿈이 되기 때문에 원하는게 아님
+     
+     그러므로 반반 고루 섞인 inline-block을 적용해야함
+  */
+}
 .tree label:before{
   content: '\f256';
   font-family:fontello;
