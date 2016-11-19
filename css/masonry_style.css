@@ -13,6 +13,8 @@ body{}
   
   유연한 column-width값이 더 유용함*/
   border:5px solid green;
+  column-gap:0;
+  /*따라서 갭을 0으로 조정*/
 }
 #columns figure{
   display: inline-block;
@@ -20,6 +22,7 @@ body{}
   /* 크롬에서 확인한 결과 피규어는 기본으로 위아래로 16픽셀 좌우로는 40픽셀의 마진을 가지고 있음.
     마진을 없애기*/
   margin: 0;
+  /* 그럼에도 불구하고 여전히 간격이 조금 있는 이유는 column-gap이 존재하다고함*/
   
 }
 #columns figure img{
