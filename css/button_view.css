@@ -11,6 +11,10 @@ body{}
   border-radius: 10px;
   /* 보더의 테두리 반지름*/
 }
+.btn:active{
+  transform:translateY(10px);
+  /* 눌렀을 때 액티브 되었을 때 Y축으로 10픽셀 움직임*/
+}
 .btn.blue{
   background-color: #1f75d9;
 }
