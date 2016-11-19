@@ -2,6 +2,7 @@
 body{}
 .tree, .tree ul{
   list-style:none;
+  padding-left:20px; /* 간격 0으로했다 너무 이상해서 20픽셀로 패딩값 설정*/
 }
 .tree input[type="checkbox"]{
   display:none;
