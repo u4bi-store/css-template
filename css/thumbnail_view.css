@@ -5,6 +5,7 @@ body{}
   width:150px;
   height:150px;
   background-size:cover;
+  background-position:center center;
   /* 엘리먼트 크기의 비율이 뒤틀리거나 왜곡되지 않는 선안에서의 전체 비율을 설정하고
      나머지 비율은 짤라냄
   
