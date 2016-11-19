@@ -12,4 +12,12 @@ body{}
   즉 300픽셀이라고 하는 컬럼값에 맞게 웹 브라우저가 지정해줌
   
   유연한 column-width값이 더 유용함*/
+  border:5px solid green;
+}
+#columns figure{
+  display: inline-block;
+  border:5px solid red;
+}
+#columns figure img{
+  width: 100%;
 }
