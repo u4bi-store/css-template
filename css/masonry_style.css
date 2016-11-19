@@ -29,6 +29,8 @@ body{}
   margin-bottom:15px;
   /* margin-bottom을 15픽셀 정도 줘보면 위 아래 간격이 벌어짐*/
   padding:10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  /* 그림자 효과주기 x축 2px y축도 2px */
   
 }
 #columns figure img{
