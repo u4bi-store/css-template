@@ -17,6 +17,10 @@ body{}
 #columns figure{
   display: inline-block;
   border:5px solid red;
+  /* 크롬에서 확인한 결과 피규어는 기본으로 위아래로 16픽셀 좌우로는 40픽셀의 마진을 가지고 있음.
+    마진을 없애기*/
+  margin: 0;
+  
 }
 #columns figure img{
   width: 100%;
