@@ -1,6 +1,18 @@
 /* google-degine.js*/
 
+var flag = false;
 function scroll(num){
-  console.log('dd');
   document.getElementById('content').scrollTop = num;
+}
+
+function terminel(){
+  flag = !flag;
+  if(flag) document.getElementById('dos').style.display = 'none';
+  else{
+    document.getElementById('dos').style.display = 'block';
+  }
+}
+
+function dosFocus(){
+  document.getElementById('dos-input').focus();
 }
