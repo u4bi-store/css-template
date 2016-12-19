@@ -10,17 +10,35 @@ body{
     padding:10px;
     text-align:center;
     height:20%;
+    transition:all 1s;
   }
-  .box-1{
+
+  .container-1 div:hover{
+    height:100%;
+    border:5px black solid;
+  }
+  .container-1 div:hover div{
+    font-size:4rem;
+    margin:auto;
+    width:50%;
+    height:auto;
+    border:5px black solid;
+  }
+  .box-pupple{
     background-color:#7F66F8;
     color:#fff;
     border:5px black solid;
   }
-  
-  .box-2{
+
+  .box-orenge{
+    background-color:#F79C1B;
+    color:#fff;
+  }
+
+  .box-white{
     background-color:#FFF;
   }
   
-  .box-3{
+  .box-green{
     background-color:#85ECCF;
   }
