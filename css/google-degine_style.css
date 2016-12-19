@@ -14,24 +14,47 @@ body{
   }
 
   .container-1 div:hover{
-    height:100%;
-    border:5px black solid;
+    height:80%;
+    border:.3rem black solid;
   }
   .container-1 div:hover div{
     font-size:4rem;
     margin:auto;
     width:50%;
     height:auto;
-    border:5px black solid;
+    border:.3rem black dashed;
+  }
+
+  .box-hover-on{
+    display:none;
+    text-align:left;
+    line-height:150%;
+  }
+
+
+  .container-1 div:hover .box-hover-on{
+    display:block;
+  }
+
+  .box-yellow{
+    background-color:#FFEE17;
   }
   .box-pupple{
     background-color:#7F66F8;
     color:#fff;
-    border:5px black solid;
+    border:.3rem black solid;
+  }
+  .box-blue{
+    background-color:#406FFA;
+    color:#fff;
   }
 
   .box-orenge{
     background-color:#F79C1B;
+    color:#fff;
+  }
+  .box-jamong{
+    background-color:#FF5454;
     color:#fff;
   }
 
