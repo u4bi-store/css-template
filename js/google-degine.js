@@ -10,6 +10,7 @@ function terminel(){
   if(flag) document.getElementById('dos').style.display = 'none';
   else{
     document.getElementById('dos').style.display = 'block';
+    document.getElementById('dos-input').focus();
   }
 }
 
