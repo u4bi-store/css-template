@@ -30,6 +30,15 @@ body{
     color:#fff;
     margin:1rem;
   }
+  #main img{
+    animation-duration: 1.5s;
+		animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {margin-left: 1000%;}
+    to {margin-left: 0%;}
+  }
+
   #main h4 p{
     border:.15rem black dashed;
     padding:.5rem 1rem .5rem 1rem;
