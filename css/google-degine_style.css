@@ -8,6 +8,9 @@
     width:80% !important;
     height:50%;
   }
+  .container-1 div:hover h3 div, .container-1 div:hover h1 div{
+    padding:0.5rem 1rem 0.5rem 1rem !important;
+  }
 }
 
 ::-webkit-scrollbar {border: 0;}
@@ -98,7 +101,9 @@ body{
     display:none;
     /* line-height:150%; */
   }
-
+  .container-1 div:hover h3 div, .container-1 div:hover h1 div{
+    padding:1rem 1rem 1rem 1rem;
+  }
   .container-1 div:hover .box-hover-on{
     font-size:1rem;
     width:100%;
