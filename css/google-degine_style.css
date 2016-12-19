@@ -5,7 +5,7 @@
     display:block !important;
   }
   .container-1 div:hover .box-hover-on{
-    width:85% !important;
+    width:80% !important;
     height:50%;
   }
 }
