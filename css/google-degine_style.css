@@ -19,20 +19,22 @@ body{
     color:#fff;
     margin:1rem;
   }
-  #main h4{
-    display:flex;
-    overflow-x: scroll;
-  }
-  #main h4 span{
+  #main h4 p{
     border:.15rem black dashed;
     padding:.5rem 1rem .5rem 1rem;
     margin : .5rem;
     cursor: pointer;
   }
-  #main h4 span:hover{
+  #main h4 p:hover{
     background:rgba(255, 20, 147, 1);
     font-size:2rem;
     transition:all 1s;
+  }
+  .main-nav-bar{
+    display:none;
+  }
+  #main:hover .main-nav-bar{
+    display:block;
   }
 
   .container-1{
