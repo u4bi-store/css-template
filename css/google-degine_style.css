@@ -1,6 +1,13 @@
 /* google-degine_style.css */
+@media (max-width: 1040px){
+  #terminal{ left:88% !important;}
+  
+}
 
 @media (max-width: 540px){
+  #terminal{ left:85% !important;}
+  #terminal img{ width:35px !important; height:35px !important;}
+  
   .container-1 div:hover{
     display:block !important;
   }
@@ -42,6 +49,12 @@ body{
     position: absolute;
     overflow:hidden;
     background-color:#4285F4;
+  }
+  #terminal{
+    position:absolute;
+    color:#fff;
+    top:90%;
+    left:92%;
   }
   #main{
     position:absolute;
