@@ -11,5 +11,21 @@
       <figure class="back">2</figure>
     </div>
   </section>
+
+  <script src="./lib/transforms-util.js"></script>
+  <script>
+  function init() {
+    var card = document.getElementById('card');
+
+    document.getElementById('card').addEventListener( 'click', function(){
+      card.toggleClassName('flipped');
+    });
+
+  };
+
+  init();
+  
+  </script>
+
 </body>
 </html>
